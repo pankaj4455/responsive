@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+body{
+background-color: white;
+}
+.div_1{
+    width: 30%;
+    height: auto;
+    float: left;
+    background-color: darkgray;
+}
+.div_1 #pic{
+    border-radius: 50%;
+}
+.div_2{
+    width: 70%;
+    height: auto;
+    float: left;
+    
+    background-color:grey;
+}
+#div_3{
+   display: flex;
+   justify-content: center;
+width: 100%;
+background-color: aquamarine;
+ }
+#div_3 a{
+    padding: 10px;
+}
+@media (max-width:576px){
+         .div_1{
+             width: 100%;
+             float: left;
+         }
+         .div_2{
+            width: 100%;
+             float: right;
+         }
+         #div_3{
+             background-color: lightcoral;
+         }
+}
